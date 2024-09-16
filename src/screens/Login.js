@@ -93,20 +93,23 @@ const styles = StyleSheet.create({
       },
       container:{
         width:"90%",
-        backgroundColor:colors.green2,
+        backgroundColor:colors.lightGray,
         gap:15,
         borderRadius:10,
         justifyContent:"center",
         alignItems:"center",
-        paddingVertical:20
+        paddingVertical:20,
+        color:"black"
       },
       title:{
         fontSize:22,
-        fontFamily:"Lobster"
+        fontFamily:"Lobster",
+        color:"black"
       },
       sub:{
         fontSize:14,
         fontFamily:"Josefin"
+       
       },
       subLink:{
         fontSize:14,

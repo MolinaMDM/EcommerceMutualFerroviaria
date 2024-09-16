@@ -18,11 +18,14 @@ const styles = StyleSheet.create({
         backgroundColor:colors.blue,
         padding:10,
         alignItems:"center",
-        borderRadius:10
+        borderRadius:10,
+       
     },
     text:{
         textAlign:"center",
-        color:"white",
-        fontSize:18
+        fontSize:18,
+        color:"black",
+        width:"60%",
+        borderRadius:10
     }
 })
