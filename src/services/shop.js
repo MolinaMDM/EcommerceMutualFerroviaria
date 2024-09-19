@@ -25,5 +25,5 @@ export const shopApi = createApi({
 
 export const {  useGetCategoriesQuery, 
                 useGetProductsQuery, 
-                useGetProductQuery
+                useGetProductQuery,
 } = shopApi

@@ -14,9 +14,11 @@ const ItemDetail = ({route}) => {
   const dispatch = useDispatch()
 
   const handleAddItemCart = () => {
-    dispatch(addItemCart({...product,quantity:1}))
+    dispatch(addItemCart({...product,quantity:2}))
     navigation.navigate("CartStack")
   }
+
+  console.log (product)
 
   if(isLoading) return <LoadingSpinner/>
 

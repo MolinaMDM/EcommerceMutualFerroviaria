@@ -13,9 +13,13 @@ const ItemListCategories = ({route}) => {
   const [productsFiltered,setProductsFiltered] = useState([])
 
   useEffect(()=>{
-    if(isSuccess){
+   
+    if(isSuccess)
+      
+      {
       setProductsFiltered(products)
     }
+
   },[category,isSuccess])
 
   const onSearch = (input) => {
@@ -25,8 +29,9 @@ const ItemListCategories = ({route}) => {
     }else{
       setProductsFiltered(products)
     }
-   
+
   }
+
 
   if(isLoading) return <LoadingSpinner/>
   if(isError) return <View><Text>{error.message}</Text></View>
