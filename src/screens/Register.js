@@ -86,7 +86,7 @@ const Register = ({navigation}) => {
             <SubmitButton onPress={onSubmit} title="Registrarme"/>
             <Text style={styles.sub}>ya tenes una cuenta?</Text>
             <Pressable onPress={()=> navigation.navigate("Login")} >
-                <Text style={styles.subLink}>Incio de sesion Mutual Ferroviaria</Text>
+                <Text style={styles.subLink}>Mutual Ferroviaria</Text>
             </Pressable>
         </View>
     </View>

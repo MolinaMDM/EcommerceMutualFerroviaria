@@ -69,6 +69,11 @@ export default LocationSelector
 
 const styles = StyleSheet.create({
     container:{
-        marginTop:100
+        marginTop:100 ,
+        justifyContent:"center",
+        alignItems:"center",
+        gap:20,
+       
+
     }
 })
