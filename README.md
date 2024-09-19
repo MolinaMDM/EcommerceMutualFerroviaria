@@ -1,4 +1,4 @@
-# E-Commerce App - React Native
+# E-Commerce App Mutual Ferroviaria- React Native
 
 Una aplicación de comercio electrónico desarrollada con React Native que ofrece una experiencia de compra completa y fácil de usar.
 
@@ -9,9 +9,7 @@ Una aplicación de comercio electrónico desarrollada con React Native que ofrec
 - **Acceso seguro:** Solo los usuarios autenticados pueden acceder a la pantalla de perfil y realizar compras.
 - **Información del usuario:** Muestra detalles del usuario, como nombre y dirección.
 
-<img src="./screenshot/Screenshot_1726010585.png" width="300" >
-<img src="./screenshot/Screenshot_1726010674.png" width="300" >
-
+![alt text](<screenshot/Inicio Sesion.png>)
 
 ### Autenticación con Firebase
 
@@ -20,10 +18,14 @@ Una aplicación de comercio electrónico desarrollada con React Native que ofrec
 
 ### Pantalla de Categorías
 
+![alt text](screenshot/Categorias.png)
+
 - Muestra una selección de categorías en tarjetas.
 - Al hacer clic en una categoría, se navega a la pantalla de productos correspondiente.
 
 ### Pantalla de Productos
+
+![alt text](screenshot/Productos.png)
 
 - Lista todos los productos en tarjetas con nombre y foto.
 - Incluye un buscador para filtrar productos por nombre.
@@ -31,13 +33,13 @@ Una aplicación de comercio electrónico desarrollada con React Native que ofrec
 
 ### Pantalla de Detalles del Producto
 
+![alt text](<screenshot/Detalle Productos.png>)
+
 - Proporciona una descripción detallada del producto.
 - Muestra el precio y el stock disponible.
 - Permite agregar el producto al carrito.
 
-<img src="./screenshot/Screenshot_1705910438.png" width="300" >
-<img src="./screenshot/Screenshot_1705910442.png" width="300" >
-<img src="./screenshot/Screenshot_1705910445.png" width="300" >
+
 
 ### Navegación Inferior
 
@@ -101,7 +103,7 @@ Una aplicación de comercio electrónico desarrollada con React Native que ofrec
 
 ## Instalación
 
-1. Clona el repositorio: `git clone https://github.com/tu-usuario/tu-aplicacion.git`
+1. Clona el repositorio: `git clone https://github.com/MolinaMDM/EcommerceMutualFerroviaria.git`
 2. Instala las dependencias: `npm install`
 3. Configura las claves de API para servicios externos (Expo-Location, Firebase, etc.).
 4. Configura las credenciales de Firebase en tu proyecto.
@@ -109,4 +111,4 @@ Una aplicación de comercio electrónico desarrollada con React Native que ofrec
 
 ## Contacto
 
-Para preguntas o soporte, contacta a maxi_rosanda@hotmail.com.
+Para preguntas o soporte, contacta a molinamdm182@gmail.com
