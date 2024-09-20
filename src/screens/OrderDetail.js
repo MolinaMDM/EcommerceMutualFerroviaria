@@ -15,11 +15,23 @@ const OrderDetail = ({route}) => {
 
   return (
     <View>
-      <Text>OrderDetail</Text>
+      <Text style={styles.texto}>Pronto su producto sera enviado - Gracias</Text>
     </View>
   )
 }
 
 export default OrderDetail
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  texto:{
+    marginTop:70,
+    alignItems:"center",
+    gap:20 ,
+    fontSize:22 ,
+    fontFamily:"Lobster",
+    color:"black", 
+    justifyContent:"center", 
+},
+
+
+})

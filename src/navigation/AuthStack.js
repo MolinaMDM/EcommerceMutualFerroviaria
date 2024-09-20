@@ -12,7 +12,7 @@ const AuthStack = () => {
     screenOptions={(
         ({route}) => {
             return {
-                header: () => <Header title={route.name === "Login" ? "Inicio de Sesion Mutual Ferroviaria":"Registrarme"}/>
+                header: () => <Header title={route.name === "Login" ? "Mutual Ferroviaria":"Registrarme"}/>
             }
         }
 )}

@@ -13,7 +13,8 @@ const Orders = () => {
 
   if(isLoading) return <LoadingSpinner/>
 
-  if(orders.length === 0) return <View><Text>vacio</Text></View>
+  if(orders.length === 0) return 
+  <View style={styles.texto}><Text>Carrito Vacio</Text></View>
   return (
     <View>
       <FlatList
@@ -27,4 +28,15 @@ const Orders = () => {
 
 export default Orders
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  texto:{
+    marginTop:70,
+    alignItems:"center",
+    gap:20 ,
+    fontSize:22 ,
+    fontFamily:"Lobster",
+    color:"black"  
+},
+
+})
+
